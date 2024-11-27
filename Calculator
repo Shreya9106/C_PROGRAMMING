@@ -1,0 +1,30 @@
+#include <stdio.h>
+void main()
+{
+    int P,R,T,SI;
+    printf("Enter the principle amount:\n");
+    scanf("%d", &P);
+    printf("Enter the interest rate per annum:\n");
+    scanf("%d", &R);
+    printf("Enter the time in years:\n");
+    scanf("%d", &T);
+    SI=(P*R*T)/100;
+    printf("The Simple Interest is: %d\n", SI);
+
+}
+
+
+Sample Output:
+Enter the principle amount: 1000
+Enter the interest rate per annum: 100
+Enter the time in years: 5
+The Simple Interest is: 5000
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
