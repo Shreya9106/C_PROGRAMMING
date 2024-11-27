@@ -1,3 +1,5 @@
+//This program is to calculate the simple interest
+
 #include <stdio.h>
 void main()
 {
@@ -20,8 +22,33 @@ Enter the interest rate per annum: 100
 Enter the time in years: 5
 The Simple Interest is: 5000
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//This program is to calculate the ohm's law
+
+#include <stdio.h>
+void main()
+{
+    int i,r,v;
+    printf("Enter the current (I):\n");
+    scanf("%d", &i);
+    printf("Enter the resistance (R):\n");
+    scanf("%d", &r);
+    v=i*r;
+    printf("The potential difference (V) is: %d", v);
+}
+
+
+
+Sample Output:
+Enter the current (I): 10
+Enter the resistance (R): 5
+The potential difference (V) is: 50
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
