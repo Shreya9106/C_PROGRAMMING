@@ -45,7 +45,28 @@ Enter the resistance (R): 5
 The potential difference (V) is: 50
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//This program is to calculate the BMI
 
+#include <stdio.h>
+int main()
+{
+    
+    float w,h,bmi;
+    printf("Enter the weight:\n");
+    scanf("%f", &w);
+    printf("Enter the height:\n");
+    scanf("%f", &h);
+    bmi=w/(h*h);
+    printf("The BMI is: %f", bmi);
+    return 0;
+}
+
+
+
+Sample Output:
+Enter the weight: 65.5
+Enter the height: 163.25
+The BMI is: 0.002458
 
 
 
