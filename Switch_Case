@@ -1,0 +1,156 @@
+//Traffic Light Sysytem 
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("Enter the colour ['red (r)','yellow (y)','green (g)']:\n");
+    scanf("%c", &a);
+    switch(a)
+    {
+       case 'r':
+          printf("Stop");
+          break;
+       case 'y':
+          printf("Get ready");
+          break;
+       case 'g':
+          printf("Go");
+          break;
+       default:
+          printf("Enter within the choice:");
+    }      
+   return 0;
+}
+
+Sample Output:
+Enter the colour ['red (r)','yellow (y)','green (g)']: y
+Get ready
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Vowels and Consonants
+
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter a character:\n");
+    scanf("%c", &ch);
+    switch (ch)
+    
+    {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+         
+         printf("%c is a vowel \n", ch);
+         break;
+        default:
+         printf("%c is a consonant \n", ch);
+    }
+    return 0;
+}
+
+Sample Output:
+Enter a character: u
+u is a vowel 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Number of days in the month
+
+#include<stdio.h>
+int main()
+{
+    int month;
+    printf("Enter a month number [1-12]:\n");
+    scanf("%d", &month);
+    switch(month)
+    {
+        case 1:
+         printf("31 days");
+         break;
+        case 2:
+         printf("28/29 days");
+         break;
+        case 3:
+         printf("31 days");
+         break;
+        case 4:
+         printf("30 days");
+         break;
+        case 5:
+         printf("31 days");
+         break;
+        case 6:
+         printf("30 days");
+         break;
+        case 7:
+         printf("31 days");
+         break;
+        case 8:
+         printf("31 days");
+         break;
+        case 9:
+         printf("30 days");
+         break;
+        case 10:
+         printf("31 days");
+         break;
+        case 11:
+         printf("30 days");
+         break;
+        case 12:
+         printf("31 days");
+         break;
+        default:
+         printf("Invalid, enter month number between 1-12");
+    }
+    return 0;
+}
+
+Sample Output:
+Enter a month number [1-12]: 12
+31 days
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
