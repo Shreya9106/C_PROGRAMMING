@@ -1,0 +1,120 @@
+//This program is to calculate the sum of the first n natural numbers
+
+#include<stdio.h>
+int main()
+{
+    int n,i,sum=0;
+    printf("Enter a natural number:\n");
+    scanf("%d", &n);
+    
+    for(int i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+        printf("Sum = %d", sum);
+        
+        return 0;
+}
+
+Sample Output:
+Enter a natural number: 5
+Sum = 15
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//This program is to reverse a given number 
+
+#include<stdio.h>
+void main()
+{
+    int n,rev,remainder,i;
+    printf("Enter the number to reverse:\n");
+    scanf("%d",&n);
+    
+    for(i=1;n>0;i++)
+    {
+        remainder = n%10;
+        rev = rev*10+remainder;
+        n=n/10;
+    }
+    printf("Reverse is %d",rev);
+}
+
+Sample Output:
+Enter the number to reverse: 96868834
+Reverse is 43886869
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//This program is to check whether a given number is a perfect number or not
+
+#include<stdio.h>
+int main()
+{
+    int i,n,sum=0;
+    printf("Enter a number to check if its a perfect number:\n");
+    scanf("%d",&n);
+    for(i=1;i<=n/2;i++)
+    {
+        if(n%i==0)
+        {
+            sum +=i;
+        }
+    }
+    if (sum==n&&n>0)
+    {
+        printf("%d is a perfect number",n);
+    }
+    else
+    {
+        printf("%d is not a perfect number",n);
+    }
+    return 0;
+}
+
+Sample Output:
+Enter a number to check if its a perfect number: 28
+28 is a perfect number
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//This program is to check whether a given number is positive, negative or zero
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter a number:\n");
+    scanf("%d",&num);
+    if(num<0)
+    {
+        printf("The number is negative");
+    }
+    else if(num>0)
+    {
+        printf("The number is positive");
+    }
+    else
+    {
+        printf("You entered zero");
+    }
+    return 0;
+}
+
+Sample Output:
+Enter a number: -56
+The number is negative
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
